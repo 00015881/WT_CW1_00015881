@@ -1,0 +1,100 @@
+* css for HOME page */
+body {
+    margin: 0;
+    background-color: rgb(219, 219, 219);
+}
+
+nav {
+    top: 0;
+    background-color: rgb(92, 14, 14);
+    padding: 15px;
+    text-align: center;
+    z-index: 100;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+    font-size: 18px;
+    margin: 0 40px;
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+nav a:hover {
+    transform: scale(2);
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+p span {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.logo-container img {
+    position: absolute;
+    top: 60px;
+    left: 60px;
+    width: 100px;
+    height: auto;
+}
+
+.half-background {
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipNC9I3bReiJNOLIgpXAC370AH0QJsJfvRBsA-A=s680-w680-h510);
+    background-size: cover;
+    background-position: center top;
+    color: rgb(219, 219, 219);
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+}
+
+.second-half {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.second-half img {
+    width: 32%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color:rgb(92, 14, 14);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; 
+    margin-top: auto; 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px; 
+}
+
+.copyright {
+    font-size: 12px; 
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+/* css for MENU page */
+body { 
+  margin: 0;
+  padding: 0;
+  background-color: rgb(219, 219, 219);
+}
+
+
+nav {
+  top: 0;
+  background-color: rgb(92, 14, 14);
+  padding: 15px;
+  text-align: center;
+}
+
+
+nav a {
+  text-decoration: none;
+  color: rgb(219, 219, 219);
+  font-size: 18px;
+  margin: 0 40px;
+  display: inline-block;
+  transition: transform 0.3s; 
+}
+
+nav a:hover {
+  transform: scale(2); 
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.meals-menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.meals-menu-item {
+  width: 300px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.meals-menu-item:hover {
+  transform: scale(1.05);
+}
+
+.logo {
+  width: 150px; 
+  height: auto; 
+}
+.meals-img img {
+   width: 100%; 
+  height: 200px; 
+  object-fit: cover;
+}
+
+.meals-description {
+  padding: 15px;
+}
+
+.meals-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.meals-price {
+  font-weight: bold;
+  color: #117964;
+}
+
+.meals-menu-heading {
+      text-align: center;
+      margin-top: 50px;
+      font-size: 5rem; 
+      text-transform: uppercase; 
+      color: rgb(92, 14, 14);
+      font-family: 'Times New Roman', Times, serif;
+  }
+
+  .logo-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .logo {
+      width: 450px;
+      height: auto;
+      margin: 0 10px; 
+  }
+  
+  .left-logo {
+      order: -1; 
+  }
+  
+  .right-logo {
+      order: 1; 
+  }
+
+  footer {
+      background-color:rgb(92, 14, 14);
+      color: #fff;
+      text-align: center;
+      padding: 20px 0; 
+      margin-top: auto; 
+  }
+  
+  .footer-container {
+      display: inline;
+      justify-content: space-around;
+      margin-bottom: 10px; 
+  }
+  
+  .copyright {
+      font-size: 12px; 
+  }
